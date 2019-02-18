@@ -3,6 +3,16 @@
 This document was created to help and faciliate a learning session on Data.
 This guide will cover Data, Data Types, Data Structures, and Design Patterns.
 
+### Resources: 
+- https://www.javascript.com/learn
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://www.dofactory.com/javascript/factory-method-design-pattern 
+- http://file.allitebooks.com/20190124/JavaScript%20Data%20Structures%20and%20Algorithms.pdf
+- https://github.com/kdn251/interviews/blob/master/README.md
+- https://khan4019.github.io/front-end-Interview-Questions/js1.html
+- https://khan4019.github.io/front-end-Interview-Questions/js2.html
+
+
 ## Data
 
 Data is contextless information. "Data" can be stored in several different ways but eventually given context by typing (Typing, Type, Data Types).
