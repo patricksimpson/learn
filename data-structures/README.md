@@ -18,6 +18,8 @@ Based on the book: http://file.allitebooks.com/20190124/JavaScript%20Data%20Stru
 
 `localStorage` is an example of a hash table.
 
+<img src="https://files.slack.com/files-pri/T024QRKC5-FG9FTSQN4/image.png">
+
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
   function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
@@ -54,6 +56,8 @@ JavaScript arrays implement stack-like properties.
 
 https://www.geeksforgeeks.org/implementation-queue-javascript/
 
+<img src="https://www.thecrazyprogrammer.com/public_html/thecrazyprogrammer.com/wp-content/uploads/2016/05/Difference-Between-Stack-and-Queue.jpg">
+
 
 ### Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
@@ -83,6 +87,8 @@ or equal to those of the children and the lowest key is in the root node
   * Access Max / Min: `O(1)`
   * Insert: `O(log(n))`
   * Remove Max / Min: `O(log(n))`
+  
+  <img src="http://www.expertsmind.com/CMSImages/666_Heap%20Sort4.png">
 
 https://codeburst.io/implementing-a-complete-binary-heap-in-javascript-the-priority-queue-7d85bd256ecf
 
