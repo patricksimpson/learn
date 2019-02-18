@@ -16,7 +16,19 @@ Based on the book: http://file.allitebooks.com/20190124/JavaScript%20Data%20Stru
 
 "A hash table is a fixed-sized data structure in which the size is defined at the start. This chapter explains how hash tables work by focusing on hashing, the method of generating a unique key. By the end of this chapter, you will understand various hashing techniques and know how to implement a hash table from scratch." (JavaScript Data Structures and Algorithms)
 
-localStorage
+`localStorage` is an example of a hash table.
+
+### Hashing
+* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
+  function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
+* **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
+  an index into an array of buckets or slots, from which the desired value can be found.
+* Collision Resolution
+ * **Separate Chaining**: in *separate chaining*, each bucket is independent, and contains a list of entries for each index. The
+ time for hash map operations is the time to find the bucket (constant time), plus the time to iterate through the list
+ * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the
+ hashed-to-slot and proceeding in some sequence, until an unoccupied slot is found. The name open addressing refers to
+ the fact that the location of an item is not always determined by its hash value
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
@@ -28,7 +40,7 @@ localStorage
    * Insert: `O(1)`
    * Remove: `O(1)`
 
-JavaScript Arrays fullfill this data type!
+JavaScript arrays implement stack-like properties.
 
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
@@ -39,6 +51,8 @@ JavaScript Arrays fullfill this data type!
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)`
+
+https://www.geeksforgeeks.org/implementation-queue-javascript/
 
 
 ### Linked List
@@ -70,6 +84,8 @@ or equal to those of the children and the lowest key is in the root node
   * Insert: `O(log(n))`
   * Remove Max / Min: `O(log(n))`
 
+https://codeburst.io/implementing-a-complete-binary-heap-in-javascript-the-priority-queue-7d85bd256ecf
+
 ### Graph
 * A *Graph* is an ordered pair of G = (V, E) comprising a set V of vertices or nodes together with a set E of edges or arcs,
   which are 2-element subsets of V (i.e. an edge is associated with two vertices, and that association takes the form of the
@@ -78,6 +94,8 @@ or equal to those of the children and the lowest key is in the root node
  v (u -> v), then it is also the case that there exists an edge from node v to node u (v -> u)
  * **Directed Graph**: a graph in which the adjacency relation is not symmetric. So if there exists an edge from node u to node v
  (u -> v), this does *not* imply that there exists an edge from node v to node u (v -> u)
+
+ https://www.geeksforgeeks.org/implementation-graph-javascript/
 
 
 ### Tree
@@ -89,7 +107,9 @@ or equal to those of the children and the lowest key is in the root node
  * **Full Tree**: a tree in which every node has either 0 or 2 children
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
-   level are as far left as possibleA
+   level are as far left as possible
+
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/binary-tree-to-DLL.png">
 
   https://www.geeksforgeeks.org/implementation-binary-search-tree-javascript/
 
@@ -129,18 +149,3 @@ https://khan4019.github.io/front-end-Interview-Questions/bst.html
 * Time Complexity:
   * Range Query: `O(log(n))`
   * Update: `O(log(n))`
-
-### Hashing
-* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
-  function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
-* **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
-  an index into an array of buckets or slots, from which the desired value can be found.
-* Collision Resolution
- * **Separate Chaining**: in *separate chaining*, each bucket is independent, and contains a list of entries for each index. The
- time for hash map operations is the time to find the bucket (constant time), plus the time to iterate through the list
- * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the
- hashed-to-slot and proceeding in some sequence, until an unoccupied slot is found. The name open addressing refers to
- the fact that the location of an item is not always determined by its hash value
-
-
-![Alt text](/images/hash.png?raw=true "Hashing")
