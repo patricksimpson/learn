@@ -6,7 +6,7 @@ This guide will cover Data, Data Types, Data Structures, and Design Patterns.
 ### Resources: 
 - https://www.javascript.com/learn
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
-- https://www.dofactory.com/javascript/factory-method-design-pattern 
+- https://www.dofactory.com/javascript/design-patterns
 - http://file.allitebooks.com/20190124/JavaScript%20Data%20Structures%20and%20Algorithms.pdf
 - https://github.com/kdn251/interviews/blob/master/README.md
 - https://khan4019.github.io/front-end-Interview-Questions/js1.html
