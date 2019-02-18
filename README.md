@@ -11,6 +11,8 @@ This guide will cover Data, Data Types, Data Structures, and Design Patterns.
 - https://github.com/kdn251/interviews/blob/master/README.md
 - https://khan4019.github.io/front-end-Interview-Questions/js1.html
 - https://khan4019.github.io/front-end-Interview-Questions/js2.html
+- https://www.geeksforgeeks.org
+- https://leetcode.com/
 
 
 ## Data
