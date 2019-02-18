@@ -18,7 +18,7 @@ Based on the book: http://file.allitebooks.com/20190124/JavaScript%20Data%20Stru
 
 `localStorage` is an example of a hash table.
 
-<img src="https://files.slack.com/files-pri/T024QRKC5-FG9FTSQN4/image.png">
+<img src="https://sparkbox.slack.com/files/U024R6ZD2/FG9FTSQN4/image.png">
 
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
